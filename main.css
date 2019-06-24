@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 42px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+h2,h3,h4{
+    font-weight: 200;
+    margin-top: 0;
+}
+
+h2,h3,h4 span{
+    font-weight: 900;
+}
+p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+a, input, textarea{
+     font-size: 17px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 0;
+    display: block;
+    max-width: 150px;
+    text-align: center;
+}
+
+.form{
+    max-width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item-bg{
+    background-image: url(img/bg1.png);
+}
+
+.grid-item-gray{
+    background-color: #f3f3f3;
+}
+
+.grid-item-blue{
+    background-image: url(img/bg-blue.png);
+}
+.grid-item-beige{
+    background-image: url(img/bg-beige.png);
+}
+
+.grid-item-black{
+    background-image: url(img/bg-black.png);
+}
+.grid-item-human{
+    background-image: url(img/bg-human.png);
+}
+.grid-item-road{
+    background-image: url(img/bg-road.png);
+}
+.grid-item-bg, .grid-item-blue, .grid-item-beige, .grid-item-black, .grid-item-human, .grid-item-road {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.grid-item-blue, .grid-item-black, .grid-item-human, .grid-item-road{
+    color: #fff;
+}
